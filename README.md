@@ -45,5 +45,5 @@ Para visualizar o site, basta baixar os arquivos e abrir o arquivo `index.html` 
 * [x] Google Fonts.
 * [x] Imagens otimizadas com alt descritivo.
 * [x] README com papéis, paleta, fontes e decisões.
-* [ ] Site no ar.
-* [ ] Vídeo de demonstração.
+* [x] Site no ar.
+* [x] Vídeo de demonstração.
