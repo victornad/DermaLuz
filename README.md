@@ -1,59 +1,49 @@
 # Projeto DermaLuz - Clínica de Dermatologia
 
-Este projeto é um site institucional estático para a clínica de dermatologia fictícia "DermaLuz". O site foi desenvolvido utilizando apenas HTML5 e CSS3, com foco em criar uma interface limpa, informativa e responsiva para diferentes tamanhos de tela.
+Este é um site institucional estático para a clínica de dermatologia fictícia "DermaLuz". O projeto foi desenvolvido utilizando apenas HTML5 e CSS3, com foco em criar uma interface limpa, informativa e responsiva para apresentar a clínica, seus serviços e informações de contato.
 
-## 📜 Descrição do Projeto
+---
 
-O site apresenta a clínica DermaLuz, seus serviços, valores e informações de contato. Ele é composto por três páginas principais, garantindo uma navegação simples e intuitiva para o usuário.
+## 👥 Autores e Papéis
 
--   **Página Inicial (`index.html`):** Uma landing page com uma seção "hero" de impacto que apresenta a clínica, seguida por cards que destacam os principais serviços oferecidos.
--   **Página Sobre (`sobre.html`):** Descreve a clínica, lista os serviços detalhadamente e apresenta uma tabela de planos e valores.
--   **Página de Contato (`contato.html`):** Fornece o endereço, telefone, e-mail e um mapa interativo do Google Maps para a localização da clínica.
+Este projeto foi desenvolvido pela dupla:
 
-## ✨ Funcionalidades
+* **Maria Luísa Muniz (Malu):** Responsável pela Estrutura e Acessibilidade (HTML, semântica) e pelo Layout e Componentes (Flex, cards, botões).
+* **Victor Nadler:** Responsável pela Estrutura e Acessibilidade (HTML, semântica) e pelo Estilo e Documentação (Paleta de cores, tipografia, README, otimização de imagens).
 
-* **Design Responsivo:** O layout se adapta a dispositivos móveis, tablets e desktops, graças ao uso de Media Queries em CSS.
-* **Navegação Clara:** Um menu de navegação consistente está presente em todas as páginas, facilitando o acesso ao conteúdo.
-* **Estilização Moderna:** O projeto utiliza Google Fonts (`Merriweather` e `Poppins`) para uma tipografia elegante e uma paleta de cores harmoniosa.
-* **Componentes Visuais:** Inclui cards para serviços, uma tabela de preços bem estruturada e uma seção "hero" com imagem de fundo.
-* **Mapa Interativo:** A página de contato possui um `iframe` do Google Maps para facilitar a localização.
+---
 
-## 🛠️ Tecnologias Utilizadas
+## 🎨 Paleta de Cores e Fontes
 
-* **HTML5:** Utilizado para toda a estrutura e semântica do conteúdo do site.
-* **CSS3:** Responsável por toda a estilização, layout (utilizando Flexbox), cores, fontes e responsividade.
-* **Google Fonts:** Para a importação das fontes `Merriweather` e `Poppins`.
+As seguintes cores e fontes foram utilizadas no projeto:
 
-**Nota:** Conforme os requisitos, nenhum framework CSS (como Bootstrap) ou JavaScript foi utilizado no projeto.
+**Paleta de Cores:**
+* `--verde-jade`: #4FB99F
+* `--rosa-pessego`: #F6CACA
+* `--azul-serenity`: #91C8E4
+* `--cinza-neutro`: #A7A9AC
 
-## 📁 Estrutura de Arquivos
+**Fontes (via Google Fonts):**
+* **Títulos:** 'Merriweather', serif
+* **Textos:** 'Poppins', sans-serif
 
-O projeto está organizado da seguinte forma:
+---
 
-/DermaLuz/
-├── /assets/
-│   ├── /css/
-│   │   └── style.css
-│   └── /img/
-│       ├── fundo.png
-│       └── procedimento.png
-├── contato.html
-├── index.html
-├── sobre.html
-└── README.md
+## 🚀 Como Abrir o Projeto
 
-/DermaLuz/
-├── /assets/
-│   ├── /css/
-│   │   └── style.css
-│   └── /img/
-│       ├── fundo.png
-│       └── procedimento.png
-├── contato.html
-├── index.html
-├── README.md
-└── sobre.html
+Para visualizar o site, basta baixar os arquivos e abrir o arquivo `index.html` diretamente em um navegador de sua preferência.
 
-## 🚀 Como Executar
+---
 
-Para visualizar o projeto, não é necessário um servidor web. Basta clonar ou baixar os arquivos e abrir qualquer um dos arquivos `.html` (`index.html`, `sobre.html`, `contato.html`) diretamente em seu navegador.
+## ✅ Checklist do Projeto
+
+* [x] 3 páginas mínimas (Home/Sobre/Contato) + links funcionando.
+* [x] header, nav, main, footer usados com propósito.
+* [x] Hero na página principal
+* [x] Tabela simples presente.
+* [x] Paleta no :root (variáveis CSS).
+* [x] Google Fonts.
+* [x] Imagens otimizadas com alt descritivo.
+* [x] README com papéis, paleta, fontes e decisões.
+* [ ] Site no ar.
+* [ ] Vídeo de demonstração.
