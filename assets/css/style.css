@@ -212,10 +212,10 @@ footer {
   }
 }
 .img-procedimento {
-  width: 300px; /* Define o tamanho que estava no style inline */
-  max-width: 100%; /* Garante que a imagem não ultrapasse a tela em celulares */
+  width: 300px; 
+  max-width: 100%; 
   height: auto;
-  border-radius: 10px;
+  border-radius: 20px;
   display: block;
-  margin: 1.5rem auto; /* Adiciona um espaço vertical e centraliza */
+  margin: 1.5rem 0; 
 }
